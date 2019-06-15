@@ -6,9 +6,15 @@
 .edit_mode .cell.selected .CodeMirror-focused:not(.cm-fat-cursor) {
   background-color: #383838 !important;
 }
+@font-face {
+ font-family: "Code New Roman";
+ font-weight: normal;
+ font-style: normal;
+ src: local('"Code New Roman"'), url('fonts/code-new-roman.otf') format('opentype');
+}
 div#notebook {
  font-family: sans-serif;
- font-size: 10.0pt;
+ font-size: 13pt;
  line-height: 170%;
  color: #f8f8f0;
  -webkit-font-smoothing: antialiased !important;
@@ -17,7 +23,7 @@ div#notebook {
 body,
 div.body {
  font-family: sans-serif;
- font-size: 10.0pt;
+ font-size: 13pt;
  color: #f8f8f0;
  background-color: #1e1e1e;
  background: #1e1e1e;
@@ -94,14 +100,14 @@ i.fa.fa-folder {
  color: #f8f8f0;
 }
 #running .panel-group .panel .panel-body .list_container .list_item {
- background: #494949;
- background-color: #494949;
+ background: #232323;
+ background-color: #232323;
  padding: 2px;
  border-bottom: 2px solid rgba(93,92,82,.25);
 }
 #running .panel-group .panel .panel-body .list_container .list_item:hover {
- background: #494949;
- background-color: #494949;
+ background: #232323;
+ background-color: #232323;
 }
 #running .panel-group .panel .panel-body {
  padding: 2px;
@@ -254,14 +260,14 @@ body > #header {
  z-index: 100;
 }
 .list_container {
- font-size: 10.0pt;
+ font-size: 13pt;
  color: #f8f8f0;
  border: none;
  text-shadow: none !important;
 }
 .list_container > div {
  border-bottom: 1px solid rgba(93,92,82,.25);
- font-size: 10.0pt;
+ font-size: 13pt;
 }
 .list_header > div,
 .list_item > div {
@@ -274,7 +280,7 @@ body > #header {
  margin-left: -1px;
  vertical-align: middle;
  line-height: 22px;
- font-size: 10.0pt;
+ font-size: 13pt;
 }
 .item_icon {
  color: #ae81ff;
@@ -320,7 +326,7 @@ body > #header {
 }
 button#tree-selector-btn {
  height: 34px;
- font-size: 9.0pt;
+ font-size: 12.0pt;
  border: none;
  left: 0px;
  border-radius: 0px !important;
@@ -366,7 +372,7 @@ div.list_item:hover {
  background-color: rgba(93,92,82,.1);
 }
 .breadcrumb > li {
- font-size: 9.0pt;
+ font-size: 12.0pt;
  color: #f8f8f0;
  border: none;
  text-shadow: none !important;
@@ -454,7 +460,7 @@ ul#tabs a {
 }
 div#notebook {
  font-family: sans-serif;
- font-size: 10.0pt;
+ font-size: 13pt;
  padding-top: 4px;
 }
 .notebook_app {
@@ -497,7 +503,7 @@ div#header-container {
 #header,
 .edit_app #header {
  font-family: sans-serif;
- font-size: 10.0pt;
+ font-size: 13pt;
  box-shadow: none;
  background-color: #1e1e1e;
 }
@@ -539,7 +545,7 @@ p.navbar-text.indicator_area {
 }
 .navbar-default {
  font-family: sans-serif;
- font-size: 10.0pt;
+ font-size: 13pt;
  background-color: #1e1e1e;
  border-color: rgba(93,92,82,.25);
  line-height: 1.5em;
@@ -547,7 +553,7 @@ p.navbar-text.indicator_area {
 }
 .navbar-default .navbar-nav > li > a {
  font-family: sans-serif;
- font-size: 10.0pt;
+ font-size: 13pt;
  color: #f8f8f0;
  display: block;
  line-height: 1.5em;
@@ -643,7 +649,7 @@ div.notification_widget.info,
  color: #ae81ff;
 }
 .item_buttons .kernel-name {
- font-size: 10.0pt;
+ font-size: 13pt;
  color: #ae81ff;
 }
 .running_notebook_icon:before {
@@ -821,7 +827,7 @@ i.fa.fa-icon {
 }
 .dropdown-menu {
  font-family: sans-serif;
- font-size: 10.0pt;
+ font-size: 13pt;
  box-shadow: none;
  padding: 0px;
  text-align: left;
@@ -832,7 +838,7 @@ i.fa.fa-icon {
 }
 .dropdown-menu:hover {
  font-family: sans-serif;
- font-size: 10.0pt;
+ font-size: 13pt;
  box-shadow: none;
  padding: 0px;
  text-align: left;
@@ -843,7 +849,7 @@ i.fa.fa-icon {
 }
 .dropdown-menu > li > a {
  font-family: sans-serif;
- font-size: 9.0pt;
+ font-size: 12.0pt;
  display: block;
  padding: 10px 20px 9px 10px;
  color: #f8f8f0;
@@ -877,7 +883,7 @@ i.fa.fa-icon {
 .dropdown-menu > .disabled > a:hover,
 .dropdown-menu > .disabled > a:focus {
  font-family: sans-serif;
- font-size: 9.0pt;
+ font-size: 12.0pt;
  font-weight: normal;
  color: #75715e;
  padding: none;
@@ -991,7 +997,7 @@ div.kse-dropdown > .dropdown-menu,
 .item_buttons > .btn,
 .item_buttons > .btn-group,
 .item_buttons > .input-group {
- font-size: 10.0pt;
+ font-size: 13pt;
  background: transparent;
  background-color: transparent;
  border: 0px solid #2f2f2f;
@@ -1114,7 +1120,7 @@ div.dynamic-buttons > button,
 }
 .dropdown-header {
  font-family: sans-serif !important;
- font-size: 10.0pt !important;
+ font-size: 13pt !important;
  color: #a6e22e !important;
  border-bottom: none !important;
  padding: 0px !important;
@@ -1178,7 +1184,7 @@ fieldset[disabled] .btn-default.focus {
 }
 .input-group-addon {
  padding: 2px 5px;
- font-size: 10.0pt;
+ font-size: 13pt;
  font-weight: normal;
  height: auto;
  color: #f8f8f0;
@@ -1258,7 +1264,7 @@ div.modal-footer > button:hover {
 }
 .modal-content {
  font-family: sans-serif;
- font-size: 9.0pt;
+ font-size: 12.0pt;
  position: relative;
  background: #2f2f2f;
  background-color: #2f2f2f;
@@ -1269,7 +1275,7 @@ div.modal-footer > button:hover {
 }
 .modal-header {
  font-family: sans-serif;
- font-size: 10.0pt;
+ font-size: 13pt;
  color: #f8f8f0;
  background: #2f2f2f;
  background-color: #2f2f2f;
@@ -1284,14 +1290,14 @@ div.modal-footer > button:hover {
  padding: 5px;
 }
 .modal-body {
- background-color: #494949;
+ background-color: #232323;
  position: relative;
  padding: 15px;
 }
 .modal-footer {
  padding: 8px;
  text-align: right;
- background-color: #494949;
+ background-color: #232323;
  border-top: none;
 }
 .alert-info {
@@ -1313,8 +1319,8 @@ div.panel-default,
 .panel,
 .panel-default {
  font-family: sans-serif;
- font-size: 10.0pt;
- background-color: #494949;
+ font-size: 13pt;
+ background-color: #232323;
  color: #f8f8f0;
  margin-bottom: 14px;
  border: 0;
@@ -1355,7 +1361,7 @@ div.form-control,
 }
 .form-group.list-group-item {
  color: #f8f8f0;
- background-color: #494949;
+ background-color: #232323;
  border-color: rgba(93,92,82,.25);
  margin-bottom: 0px;
 }
@@ -1372,7 +1378,7 @@ textarea {
 }
 select.form-control.select-xs {
  height: 33px;
- font-size: 10.0pt;
+ font-size: 13pt;
 }
 .toolbar select,
 .toolbar label {
@@ -1534,7 +1540,7 @@ div.cell.text_cell.selected::before,
 div.cell.text_cell.selected:before,
 div.cell.text_cell.selected.jupyter-soft-selected:before {
  background: #282828 !important;
- background-color: #3a4958 !important;
+ background-color: #282828 !important;
  border-color: #57564b !important;
 }
 div.cell.code_cell .input {
@@ -1582,7 +1588,7 @@ div.cell.code_cell.selected .input {
 div.cell.selected.jupyter-soft-selected .prompt,
 div.cell.text_cell.selected.jupyter-soft-selected .prompt {
  top: 0;
- border-left: #3a4958 !important;
+ border-left: #282828 !important;
  border-radius: 2px;
 }
 div.cell.text_cell.selected.jupyter-soft-selected .input_prompt {
@@ -1604,18 +1610,18 @@ div.cell.selected.jupyter-soft-selected .input {
 }
 div.prompt,
 .prompt {
- font-family: monospace, monospace;
+ font-family: "Code New Roman", monospace, monospace;
  font-size: 9pt !important;
  font-weight: normal;
- color: transparent;
+ color: #75715e;
  line-height: 170%;
  padding: 0px;
  padding-top: 4px;
  padding-left: 0px;
  padding-right: 1px;
  text-align: right !important;
- min-width: 8ex !important;
- width: 8ex !important;
+ min-width: 11.5ex !important;
+ width: 11.5ex !important;
 }
 div.prompt.input_prompt {
  font-size: 9pt !important;
@@ -1625,8 +1631,8 @@ div.prompt.input_prompt {
  border-bottom-left-radius: 0px;
  border-bottom-right-radius: 0px;
  padding-right: 3px;
- min-width: 8ex;
- width: 8ex !important;
+ min-width: 11.5ex;
+ width: 11.5ex !important;
 }
 div.cell.code_cell .input_prompt {
  border-right: 2px solid #49483e;
@@ -1692,8 +1698,8 @@ div.output_wrapper {
 }
 div.output_subarea.output_text.output_stream.output_stdout,
 div.output_subarea.output_text {
- font-family: monospace, monospace;
- font-size: 12pt !important;
+ font-family: "Code New Roman", monospace, monospace;
+ font-size: 10pt !important;
  line-height: 150% !important;
  background-color: #494949;
  color: #cccccc;
@@ -1702,8 +1708,8 @@ div.output_subarea.output_text {
  margin-left: 11.5px;
 }
 div.output_area pre {
- font-family: monospace, monospace;
- font-size: 12pt !important;
+ font-family: "Code New Roman", monospace, monospace;
+ font-size: 10pt !important;
  line-height: 151% !important;
  color: #cccccc;
  border-top-right-radius: 0px;
@@ -1713,11 +1719,11 @@ div.output_area {
  display: -webkit-box;
 }
 div.output_html {
- font-family: monospace, monospace;
- font-size: 12pt;
+ font-family: "Code New Roman", monospace, monospace;
+ font-size: 10pt;
  color: #cccccc;
- background-color: #494949;
- background: #494949;
+ background-color: #232323;
+ background: #232323;
 }
 div.output_subarea {
  overflow-x: auto;
@@ -1738,28 +1744,28 @@ div.btn.btn-default.output_collapsed:hover {
  border-color: #1d1d1d;
 }
 div.prompt.output_prompt {
- font-family: monospace, monospace;
+ font-family: "Code New Roman", monospace, monospace;
  font-weight: bold !important;
- background-color: #494949;
+ background-color: #232323;
  color: transparent;
  border-bottom-left-radius: 4px;
  border-top-right-radius: 0px;
  border-top-left-radius: 0px;
  border-bottom-right-radius: 0px;
- min-width: 11ex !important;
- width: 11ex !important;
+ min-width: 11.5ex !important;
+ width: 11.5ex !important;
  border-right: 2px solid transparent;
 }
 div.out_prompt_overlay.prompt {
- font-family: monospace, monospace;
+ font-family: "Code New Roman", monospace, monospace;
  font-weight: bold !important;
- background-color: #494949;
+ background-color: #232323;
  border-bottom-left-radius: 2px;
  border-top-right-radius: 0px;
  border-top-left-radius: 0px;
  border-bottom-right-radius: 0px;
- min-width: 11ex !important;
- width: 11ex !important;
+ min-width: 11.5ex !important;
+ width: 11.5ex !important;
  border-right: 2px solid transparent;
  color: transparent;
 }
@@ -1772,8 +1778,8 @@ div.out_prompt_overlay.prompt:hover {
  -moz-border-radius: 2px;
  border-top-right-radius: 0px;
  border-top-left-radius: 0px;
- min-width: 11ex !important;
- width: 11ex !important;
+ min-width: 11.5ex !important;
+ width: 11.5ex !important;
  border-right: 2px solid #49483e !important;
 }
 div.cell.code_cell .output_prompt {
@@ -1783,13 +1789,13 @@ div.cell.code_cell .output_prompt {
 div.cell.selected .output_prompt,
 div.cell.selected .out_prompt_overlay.prompt {
  border-left: 5px solid #33322b;
- border-right: 2px solid #494949;
+ border-right: 2px solid #232323;
  border-radius: 0px !important;
 }
 .edit_mode div.cell.selected .output_prompt,
 .edit_mode div.cell.selected .out_prompt_overlay.prompt {
  border-left: 5px solid #33322b;
- border-right: 2px solid #494949;
+ border-right: 2px solid #232323;
  border-radius: 0px !important;
 }
 div.text_cell,
@@ -1816,8 +1822,8 @@ div.cell.text_cell .CodeMirror-lines {
 }
 div.cell.text_cell.unrendered div.input_area,
 div.cell.text_cell.rendered div.input_area {
- background-color: #3a4958;
- background: #3a4958;
+ background-color: #282828;
+ background: #282828;
  border: 0px;
  border-radius: 2px;
 }
@@ -1828,29 +1834,29 @@ div.cell.text_cell .CodeMirror pre {
 div.cell.text_cell.rendered.selected {
  font-family: sans-serif;
  line-height: 170% !important;
- background: #3a4958;
- background-color: #3a4958;
+ background: #282828;
+ background-color: #282828;
  border-radius: 0px;
 }
 div.cell.text_cell.unrendered.selected {
  font-family: sans-serif;
  line-height: 170% !important;
- background: #3a4958;
- background-color: #3a4958;
+ background: #282828;
+ background-color: #282828;
  border-radius: 0px;
 }
 div.cell.text_cell.selected {
  font-family: sans-serif;
  line-height: 170% !important;
- background: #3a4958;
- background-color: #3a4958;
+ background: #282828;
+ background-color: #282828;
  border-radius: 0px;
 }
 .edit_mode div.cell.text_cell.selected {
  font-family: sans-serif;
  line-height: 170% !important;
- background: #3a4958;
- background-color: #3a4958;
+ background: #282828;
+ background-color: #282828;
  border-radius: 0px;
 }
 div.text_cell.unrendered,
@@ -1858,62 +1864,62 @@ div.text_cell.unrendered.selected,
 div.edit_mode div.text_cell.unrendered {
  font-family: sans-serif;
  line-height: 170% !important;
- background: #767676;
- background-color: #767676;
+ background: #282828;
+ background-color: #282828;
  border-radius: 0px;
 }
 div.cell.text_cell .prompt {
  border-right: 0;
- min-width: 8ex !important;
- width: 8ex !important;
+ min-width: 11.5ex !important;
+ width: 11.5ex !important;
 }
 div.cell.text_cell.rendered .prompt {
- font-family: monospace, monospace;
+ font-family: "Code New Roman", monospace, monospace;
  font-size: 9.5pt !important;
  font-weight: normal;
- color: transparent !important;
+ color: #75715e !important;
  text-align: right !important;
- min-width: 11ex !important;
- width: 11ex !important;
- background-color: #3a4958;
- border-right: 2px solid transparent;
- border-left: 4px solid #3a4958;
+ min-width: 14.5ex !important;
+ width: 14.5ex !important;
+ background-color: #282828;
+ border-right: 2px solid #49483e;
+ border-left: 4px solid #282828;
 }
 div.cell.text_cell.unrendered .prompt {
- font-family: monospace, monospace;
+ font-family: "Code New Roman", monospace, monospace;
  font-size: 9.5pt !important;
  font-weight: normal;
- color: transparent !important;
+ color: #75715e !important;
  text-align: right !important;
- min-width: 11ex !important;
- width: 11ex !important;
- border-right: 2px solid transparent;
- border-left: 4px solid #3a4958;
- background-color: #3a4958;
+ min-width: 14.5ex !important;
+ width: 14.5ex !important;
+ border-right: 2px solid #49483e;
+ border-left: 4px solid #282828;
+ background-color: #282828;
 }
 div.cell.text_cell.rendered .prompt {
- border-right: 2px solid transparent;
+ border-right: 2px solid #49483e;
 }
 div.cell.text_cell.rendered.selected .prompt {
  top: 0;
  border-left: 4px solid #57564b;
- border-right: 2px solid transparent;
+ border-right: 2px solid #49483e;
 }
 div.text_cell.unrendered.selected .prompt,
 div.text_cell.rendered.selected .prompt {
  top: 0;
- background: #3a4958;
+ background: #282828;
  border-left: 4px solid #33322b;
- border-right: 2px solid transparent;
+ border-right: 2px solid #49483e;
 }
 div.rendered_html code {
- font-family: monospace, monospace;
- font-size: 12.0pt;
+ font-family: "Code New Roman", monospace, monospace;
+ font-size: 12pt;
  padding-top: 3px;
  padding-left: 2px;
  color: #f8f8f0;
- background: #3a4958;
- background-color: #3a4958;
+ background: #282828;
+ background-color: #282828;
 }
 pre,
 code,
@@ -1923,8 +1929,8 @@ samp {
 }
 .well code,
 code {
- font-family: monospace, monospace;
- font-size: 12.0pt !important;
+ font-family: "Code New Roman", monospace, monospace;
+ font-size: 12pt !important;
  line-height: 170% !important;
  color: #f8f8f0;
  background: #282828;
@@ -1933,7 +1939,7 @@ code {
 }
 kbd {
  padding: 1px;
- font-size: 12.0pt;
+ font-size: 12pt;
  font-weight: 800;
  color: #f8f8f0;
  background-color: transparent !important;
@@ -1944,7 +1950,7 @@ pre {
  display: block;
  padding: 8.5px;
  margin: 0 0 9px;
- font-size: 9.0pt;
+ font-size: 12.0pt;
  line-height: 1.42857143;
  color: #f8f8f0;
  background-color: #282828;
@@ -1963,8 +1969,8 @@ div.rendered_html {
  margin-bottom: .5em;
 }
 div.rendered_html pre {
- font-family: monospace, monospace;
- font-size: 12.0pt !important;
+ font-family: "Code New Roman", monospace, monospace;
+ font-size: 12pt !important;
  line-height: 170% !important;
  color: #f8f8f0 !important;
  background: #282828;
@@ -1979,8 +1985,8 @@ div.rendered_html pre {
 }
 div.text_cell_render pre,
 div.text_cell_render code {
- font-family: monospace, monospace;
- font-size: 12.0pt !important;
+ font-family: "Code New Roman", monospace, monospace;
+ font-size: 12pt !important;
  line-height: 170% !important;
  color: #f8f8f0;
  background: #1e1e1e;
@@ -2127,13 +2133,13 @@ div#_vivaldi-spatnav-focus-indicator._vivaldi-spatnav-focus-indicator {
  margin-top: .05em;
 }
 div.widget-area {
- background-color: #494949;
- background: #494949;
+ background-color: #232323;
+ background: #232323;
  color: #cccccc;
 }
 div.widget-area a {
  font-family: sans-serif;
- font-size: 9.0pt;
+ font-size: 12.0pt;
  font-weight: normal;
  font-style: normal;
  color: #f8f8f0;
@@ -2142,7 +2148,7 @@ div.widget-area a {
 div.widget-area a:hover,
 div.widget-area a:focus {
  font-family: sans-serif;
- font-size: 9.0pt;
+ font-size: 12.0pt;
  font-weight: normal;
  font-style: normal;
  color: #f8f8f0;
@@ -2362,8 +2368,8 @@ span.rendered_html code {
  border: none;
 }
 .alert-warning {
- background-color: #494949;
- border-color: #494949;
+ background-color: #232323;
+ border-color: #232323;
  color: #f8f8f0;
 }
 .notification_widget.danger {
@@ -2422,13 +2428,13 @@ span.bg-danger.text-danger {
  box-shadow: inset 0 1px 1px rgba(0,0,0,0.025);
 }
 .kse-input-group-pretty > kbd {
- font-family: monospace, monospace;
+ font-family: "Code New Roman", monospace, monospace;
  color: #f8f8f0;
  font-weight: normal;
  background: transparent;
 }
 .kse-input-group-pretty > kbd {
- font-family: monospace, monospace;
+ font-family: "Code New Roman", monospace, monospace;
  color: #f8f8f0;
  font-weight: normal;
  background: transparent;
@@ -2542,7 +2548,7 @@ div.collapsible_headings_toggle .fa-caret-right:before {
 #navigate_menu a,
 .toc {
  color: #f8f8f0 !important;
- font-size: 12.0pt !important;
+ font-size: 12pt !important;
 }
 #toc li > span:hover {
  background-color: rgba(93,92,82,.25) !important;
@@ -2551,15 +2557,15 @@ div.collapsible_headings_toggle .fa-caret-right:before {
 #navigate_menu a:hover,
 .toc {
  color: #f8f8f2 !important;
- font-size: 12.0pt !important;
+ font-size: 12pt !important;
 }
 #toc-wrapper .toc-item-num {
  color: #a6e22e !important;
- font-size: 12.0pt !important;
+ font-size: 12pt !important;
 }
 input.raw_input {
- font-family: monospace, monospace;
- font-size: 12.0pt !important;
+ font-family: "Code New Roman", monospace, monospace;
+ font-size: 12pt !important;
  color: #f8f8f0;
  background-color: #282828;
  border-color: #252525;
@@ -2647,7 +2653,7 @@ body > div.modal.cmd-palette.typeahead-field {
 .typeahead-dropdown,
 .typeahead-list {
  font-family: sans-serif;
- font-size: 10.0pt;
+ font-size: 13pt;
  color: #f8f8f0;
  background-color: #202937;
  border: none;
@@ -2794,8 +2800,8 @@ div#short-key-bindings-intro.well,
  background: #1e1e1e;
 }
 .terminal-app .terminal {
- font-family: monospace, monospace;
- font-size: 12.0pt;
+ font-family: "Code New Roman", monospace, monospace;
+ font-size: 12pt;
  line-height: 170%;
  color: #f8f8f0;
  background: #282828;
@@ -2910,8 +2916,8 @@ div#pager .ui-resizable-handle {
 }
 div.CodeMirror,
 div.CodeMirror pre {
- font-family: monospace, monospace;
- font-size: 12.0pt;
+ font-family: "Code New Roman", monospace, monospace;
+ font-size: 12pt;
  line-height: 170%;
  color: #f8f8f0;
 }
@@ -2972,8 +2978,8 @@ div.js-error {
  color: #f92672;
 }
 .ipython_tooltip {
- font-family: monospace, monospace;
- font-size: 12.0pt;
+ font-family: "Code New Roman", monospace, monospace;
+ font-size: 12pt;
  line-height: 170%;
  border: 2px solid #141414;
  background: #282828;
@@ -2986,8 +2992,8 @@ div.js-error {
  z-index: 1000;
 }
 .ipython_tooltip .tooltiptext pre {
- font-family: monospace, monospace;
- font-size: 12.0pt;
+ font-family: "Code New Roman", monospace, monospace;
+ font-size: 12pt;
  line-height: 170%;
  background: #282828;
  background-color: #282828;
@@ -3008,8 +3014,8 @@ div.tooltiptext.bigtooltip {
  max-width: 800px;
 }
 .cm-s-ipython.CodeMirror {
- font-family: monospace, monospace;
- font-size: 12.0pt;
+ font-family: "Code New Roman", monospace, monospace;
+ font-size: 12pt;
  background: #282828;
  color: #f8f8f0;
  border-radius: 2px;
@@ -3233,8 +3239,8 @@ body :focus .MathJax {
  margin: 0px;
  margin-left: 2px;
  overflow: auto;
- font-family: monospace, monospace;
- font-size: 12.0pt;
+ font-family: "Code New Roman", monospace, monospace;
+ font-size: 12pt;
  color: #f8f8f0;
  width: auto;
 }
@@ -3262,3 +3268,4 @@ div#maintoolbar {
         }
     });
 </script>
+    
