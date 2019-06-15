@@ -4,7 +4,7 @@
 }
 /* Jupyter cell is in insert mode when code mirror */
 .edit_mode .cell.selected .CodeMirror-focused:not(.cm-fat-cursor) {
-  background-color: #283242 !important;
+  background-color: #383838 !important;
 }
 div#notebook {
  font-family: sans-serif;
@@ -94,14 +94,14 @@ i.fa.fa-folder {
  color: #f8f8f0;
 }
 #running .panel-group .panel .panel-body .list_container .list_item {
- background: #232323;
- background-color: #232323;
+ background: #494949;
+ background-color: #494949;
  padding: 2px;
  border-bottom: 2px solid rgba(93,92,82,.25);
 }
 #running .panel-group .panel .panel-body .list_container .list_item:hover {
- background: #232323;
- background-color: #232323;
+ background: #494949;
+ background-color: #494949;
 }
 #running .panel-group .panel .panel-body {
  padding: 2px;
@@ -1284,14 +1284,14 @@ div.modal-footer > button:hover {
  padding: 5px;
 }
 .modal-body {
- background-color: #232323;
+ background-color: #494949;
  position: relative;
  padding: 15px;
 }
 .modal-footer {
  padding: 8px;
  text-align: right;
- background-color: #232323;
+ background-color: #494949;
  border-top: none;
 }
 .alert-info {
@@ -1314,7 +1314,7 @@ div.panel-default,
 .panel-default {
  font-family: sans-serif;
  font-size: 10.0pt;
- background-color: #232323;
+ background-color: #494949;
  color: #f8f8f0;
  margin-bottom: 14px;
  border: 0;
@@ -1355,7 +1355,7 @@ div.form-control,
 }
 .form-group.list-group-item {
  color: #f8f8f0;
- background-color: #232323;
+ background-color: #494949;
  border-color: rgba(93,92,82,.25);
  margin-bottom: 0px;
 }
@@ -1534,7 +1534,7 @@ div.cell.text_cell.selected::before,
 div.cell.text_cell.selected:before,
 div.cell.text_cell.selected.jupyter-soft-selected:before {
  background: #282828 !important;
- background-color: #282828 !important;
+ background-color: #3a4958 !important;
  border-color: #57564b !important;
 }
 div.cell.code_cell .input {
@@ -1582,7 +1582,7 @@ div.cell.code_cell.selected .input {
 div.cell.selected.jupyter-soft-selected .prompt,
 div.cell.text_cell.selected.jupyter-soft-selected .prompt {
  top: 0;
- border-left: #282828 !important;
+ border-left: #3a4958 !important;
  border-radius: 2px;
 }
 div.cell.text_cell.selected.jupyter-soft-selected .input_prompt {
@@ -1682,7 +1682,7 @@ div.cell.code_cell.rendered.unselected.jupyter-soft-selected .run_this_cell:hove
  color: #33322b !important;
 }
 div.output_wrapper {
- background-color: #232323;
+ background-color: #494949;
  border: 0px;
  left: 0px;
  margin-bottom: 0em;
@@ -1695,7 +1695,7 @@ div.output_subarea.output_text {
  font-family: monospace, monospace;
  font-size: 12pt !important;
  line-height: 150% !important;
- background-color: #232323;
+ background-color: #494949;
  color: #cccccc;
  border-top-right-radius: 0px;
  border-top-left-radius: 0px;
@@ -1716,8 +1716,8 @@ div.output_html {
  font-family: monospace, monospace;
  font-size: 12pt;
  color: #cccccc;
- background-color: #232323;
- background: #232323;
+ background-color: #494949;
+ background: #494949;
 }
 div.output_subarea {
  overflow-x: auto;
@@ -1740,7 +1740,7 @@ div.btn.btn-default.output_collapsed:hover {
 div.prompt.output_prompt {
  font-family: monospace, monospace;
  font-weight: bold !important;
- background-color: #232323;
+ background-color: #494949;
  color: transparent;
  border-bottom-left-radius: 4px;
  border-top-right-radius: 0px;
@@ -1753,7 +1753,7 @@ div.prompt.output_prompt {
 div.out_prompt_overlay.prompt {
  font-family: monospace, monospace;
  font-weight: bold !important;
- background-color: #232323;
+ background-color: #494949;
  border-bottom-left-radius: 2px;
  border-top-right-radius: 0px;
  border-top-left-radius: 0px;
@@ -1783,13 +1783,13 @@ div.cell.code_cell .output_prompt {
 div.cell.selected .output_prompt,
 div.cell.selected .out_prompt_overlay.prompt {
  border-left: 5px solid #33322b;
- border-right: 2px solid #232323;
+ border-right: 2px solid #494949;
  border-radius: 0px !important;
 }
 .edit_mode div.cell.selected .output_prompt,
 .edit_mode div.cell.selected .out_prompt_overlay.prompt {
  border-left: 5px solid #33322b;
- border-right: 2px solid #232323;
+ border-right: 2px solid #494949;
  border-radius: 0px !important;
 }
 div.text_cell,
@@ -1799,8 +1799,8 @@ div.text_cell_render {
  font-size: 13pt;
  line-height: 130% !important;
  color: #f8f8f0;
- background: #282828;
- background-color: #282828;
+ background: #3a4958;
+ background-color: #3a4958;
  border-radius: 0px;
 }
 div .text_cell_render {
@@ -1816,8 +1816,8 @@ div.cell.text_cell .CodeMirror-lines {
 }
 div.cell.text_cell.unrendered div.input_area,
 div.cell.text_cell.rendered div.input_area {
- background-color: #282828;
- background: #282828;
+ background-color: #3a4958;
+ background: #3a4958;
  border: 0px;
  border-radius: 2px;
 }
@@ -1828,29 +1828,29 @@ div.cell.text_cell .CodeMirror pre {
 div.cell.text_cell.rendered.selected {
  font-family: sans-serif;
  line-height: 170% !important;
- background: #282828;
- background-color: #282828;
+ background: #3a4958;
+ background-color: #3a4958;
  border-radius: 0px;
 }
 div.cell.text_cell.unrendered.selected {
  font-family: sans-serif;
  line-height: 170% !important;
- background: #282828;
- background-color: #282828;
+ background: #3a4958;
+ background-color: #3a4958;
  border-radius: 0px;
 }
 div.cell.text_cell.selected {
  font-family: sans-serif;
  line-height: 170% !important;
- background: #282828;
- background-color: #282828;
+ background: #3a4958;
+ background-color: #3a4958;
  border-radius: 0px;
 }
 .edit_mode div.cell.text_cell.selected {
  font-family: sans-serif;
  line-height: 170% !important;
- background: #282828;
- background-color: #282828;
+ background: #3a4958;
+ background-color: #3a4958;
  border-radius: 0px;
 }
 div.text_cell.unrendered,
@@ -1858,8 +1858,8 @@ div.text_cell.unrendered.selected,
 div.edit_mode div.text_cell.unrendered {
  font-family: sans-serif;
  line-height: 170% !important;
- background: #282828;
- background-color: #282828;
+ background: #767676;
+ background-color: #767676;
  border-radius: 0px;
 }
 div.cell.text_cell .prompt {
@@ -1875,9 +1875,9 @@ div.cell.text_cell.rendered .prompt {
  text-align: right !important;
  min-width: 11ex !important;
  width: 11ex !important;
- background-color: #282828;
+ background-color: #3a4958;
  border-right: 2px solid transparent;
- border-left: 4px solid #282828;
+ border-left: 4px solid #3a4958;
 }
 div.cell.text_cell.unrendered .prompt {
  font-family: monospace, monospace;
@@ -1888,8 +1888,8 @@ div.cell.text_cell.unrendered .prompt {
  min-width: 11ex !important;
  width: 11ex !important;
  border-right: 2px solid transparent;
- border-left: 4px solid #282828;
- background-color: #282828;
+ border-left: 4px solid #3a4958;
+ background-color: #3a4958;
 }
 div.cell.text_cell.rendered .prompt {
  border-right: 2px solid transparent;
@@ -1902,7 +1902,7 @@ div.cell.text_cell.rendered.selected .prompt {
 div.text_cell.unrendered.selected .prompt,
 div.text_cell.rendered.selected .prompt {
  top: 0;
- background: #282828;
+ background: #3a4958;
  border-left: 4px solid #33322b;
  border-right: 2px solid transparent;
 }
@@ -1912,8 +1912,8 @@ div.rendered_html code {
  padding-top: 3px;
  padding-left: 2px;
  color: #f8f8f0;
- background: #282828;
- background-color: #282828;
+ background: #3a4958;
+ background-color: #3a4958;
 }
 pre,
 code,
@@ -2127,8 +2127,8 @@ div#_vivaldi-spatnav-focus-indicator._vivaldi-spatnav-focus-indicator {
  margin-top: .05em;
 }
 div.widget-area {
- background-color: #232323;
- background: #232323;
+ background-color: #494949;
+ background: #494949;
  color: #cccccc;
 }
 div.widget-area a {
@@ -2362,8 +2362,8 @@ span.rendered_html code {
  border: none;
 }
 .alert-warning {
- background-color: #232323;
- border-color: #232323;
+ background-color: #494949;
+ border-color: #494949;
  color: #f8f8f0;
 }
 .notification_widget.danger {
