@@ -1495,8 +1495,7 @@ div.cell {
 }
 div.cell.selected {
  background: #282828;
- background-color: #282828;
- border: medium solid #1e1e1e;
+ background-color: #4c4c42;
  padding: 0px;
  border-radius: 5px;
 }
@@ -1550,7 +1549,8 @@ div.cell.code_cell .input {
  border-top-left-radius: 3px;
 }
 div.cell.code_cell.selected .input {
- border-left: 5px solid #57564b !important;
+ border: 1px solid #f8f8f7 !important;
+ border-left: 5px solid #f8f8f7 !important;
  border-radius: 3px;
 }
 .edit_mode div.cell.code_cell.selected .input {
@@ -1559,7 +1559,7 @@ div.cell.code_cell.selected .input {
 }
 .edit_mode div.cell.selected:before {
  height: 100%;
- border-left: 5px solid #33322b !important;
+ border-left: 5px solid #f8f8f7 !important;
  border-radius: 3px;
 }
 div.cell.jupyter-soft-selected,
@@ -2889,7 +2889,6 @@ div#short-key-bindings-intro.well,
  color: #f8f8f0;
  background-color: #1e1e1e;
  background-image: none;
- border: 1px solid #f8f8f0;
  border-radius: 1px;
  box-shadow: none;
  width: inherit;
@@ -3268,4 +3267,3 @@ div#maintoolbar {
         }
     });
 </script>
-    
