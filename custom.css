@@ -1914,7 +1914,7 @@ div.text_cell.rendered.selected .prompt {
 }
 div.rendered_html code {
  font-family: "Code New Roman", monospace, monospace;
- font-size: 12pt;
+ font-size: 11pt;
  padding-top: 3px;
  padding-left: 2px;
  color: #f8f8f0;
@@ -1930,7 +1930,7 @@ samp {
 .well code,
 code {
  font-family: "Code New Roman", monospace, monospace;
- font-size: 12pt !important;
+ font-size: 11pt !important;
  line-height: 170% !important;
  color: #f8f8f0;
  background: #282828;
@@ -1939,7 +1939,7 @@ code {
 }
 kbd {
  padding: 1px;
- font-size: 12pt;
+ font-size: 11pt;
  font-weight: 800;
  color: #f8f8f0;
  background-color: transparent !important;
@@ -1970,7 +1970,7 @@ div.rendered_html {
 }
 div.rendered_html pre {
  font-family: "Code New Roman", monospace, monospace;
- font-size: 12pt !important;
+ font-size: 11pt !important;
  line-height: 170% !important;
  color: #f8f8f0 !important;
  background: #282828;
@@ -1986,7 +1986,7 @@ div.rendered_html pre {
 div.text_cell_render pre,
 div.text_cell_render code {
  font-family: "Code New Roman", monospace, monospace;
- font-size: 12pt !important;
+ font-size: 11pt !important;
  line-height: 170% !important;
  color: #f8f8f0;
  background: #1e1e1e;
@@ -2565,7 +2565,7 @@ div.collapsible_headings_toggle .fa-caret-right:before {
 }
 input.raw_input {
  font-family: "Code New Roman", monospace, monospace;
- font-size: 12pt !important;
+ font-size: 11pt !important;
  color: #f8f8f0;
  background-color: #282828;
  border-color: #252525;
@@ -2801,7 +2801,7 @@ div#short-key-bindings-intro.well,
 }
 .terminal-app .terminal {
  font-family: "Code New Roman", monospace, monospace;
- font-size: 12pt;
+ font-size: 11pt;
  line-height: 170%;
  color: #f8f8f0;
  background: #282828;
@@ -2916,7 +2916,7 @@ div#pager .ui-resizable-handle {
 div.CodeMirror,
 div.CodeMirror pre {
  font-family: "Code New Roman", monospace, monospace;
- font-size: 12pt;
+ font-size: 11pt;
  line-height: 170%;
  color: #f8f8f0;
 }
@@ -2978,7 +2978,7 @@ div.js-error {
 }
 .ipython_tooltip {
  font-family: "Code New Roman", monospace, monospace;
- font-size: 12pt;
+ font-size: 11pt;
  line-height: 170%;
  border: 2px solid #141414;
  background: #282828;
@@ -2992,7 +2992,7 @@ div.js-error {
 }
 .ipython_tooltip .tooltiptext pre {
  font-family: "Code New Roman", monospace, monospace;
- font-size: 12pt;
+ font-size: 11pt;
  line-height: 170%;
  background: #282828;
  background-color: #282828;
@@ -3014,7 +3014,7 @@ div.tooltiptext.bigtooltip {
 }
 .cm-s-ipython.CodeMirror {
  font-family: "Code New Roman", monospace, monospace;
- font-size: 12pt;
+ font-size: 11pt;
  background: #282828;
  color: #f8f8f0;
  border-radius: 2px;
@@ -3239,7 +3239,7 @@ body :focus .MathJax {
  margin-left: 2px;
  overflow: auto;
  font-family: "Code New Roman", monospace, monospace;
- font-size: 12pt;
+ font-size: 11pt;
  color: #f8f8f0;
  width: auto;
 }
